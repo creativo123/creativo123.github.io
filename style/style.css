@@ -1,0 +1,73 @@
+@font-face {
+src: url("../fonts/LUNCH.ttf");
+font-family: lunch;
+}
+
+.shine{
+cursor : hand;
+color : white;
+transition : all 0.5s ease-in-out;
+ont-weight : bold;
+display : inline;
+margin-right : 10px;
+font-weight : bold;
+text-decoration:  none !important;
+}
+a{
+  text-decoration:  none !important;
+}
+.shine:hover{
+color : rgb(255,183,77);
+transition : all 0.3s ease-in-out;
+}
+.photo {
+display : block;
+height : 160px;
+margin-bottom : 50px;
+}
+.photo img{
+margin : 30px 0;
+float : center;
+width : 150px;
+height : 150px;
+border-radius : 150px;
+border : 2px solid white;
+transition : all 0.5s ease-in-out;
+}
+.photo img:hover{
+height : 160px;
+border-radius : 160px;
+width : 160px;
+transition : all 0.5s ease-in-out;
+border-color : rgb(255,183,77);
+}
+.social-group{
+display : block;"
+height : 50px;
+position : relative;
+}
+.social-group img{
+width : 35px;
+height : 35px;
+margin  : 10px;
+cursor : hand;
+}
+
+.first-page{
+  margin-top : 52px;
+}
+
+.template-head1{
+  text-align : center;
+  font-family : lunch;
+  color: white;
+}
+
+.first-page .template{
+  margin-top:  3px;
+}
+
+.template{
+margin-top: 5px;
+height:  300px;
+}
